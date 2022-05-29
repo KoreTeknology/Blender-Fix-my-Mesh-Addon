@@ -11,7 +11,7 @@ A simple Addon for eductional purpose that fixes your mesh, regarding the 3 comm
 
 - **Duplicated vertex** >>> This addon will remove all duplicated vertices
 - **Inside-out normals** >>> This adon will recalculate all normals to outside
-- **Object Scale not = 1** >>> This addon will Apply all transformations on every axis
+- **Object Scale =/= 1** >>> This addon will Apply all transformations on every axis
 
 Extra feature: Reset origin to mesh center
 
