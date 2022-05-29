@@ -3,6 +3,8 @@ A simple Addon for eductional purpose that fixes your mesh, regarding the 3 comm
 
 <img src="https://img.shields.io/badge/Blender-3.1.2-green" /> <img src="https://img.shields.io/badge/Python-3.7-blue" /> <img src="https://img.shields.io/badge/Addon-1.0.1-yellow" /> <img src="https://img.shields.io/badge/CAN-X.1568D-red" />
 
+<img src="https://github.com/KoreTeknology/Blender-Fix-my-Mesh-Addon/blob/main/fixmymesh_addon_web.jpg" width=100%>
+
 ---
 
 ## What are the 3 common errors from beginners? (and what this addon does)
