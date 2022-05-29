@@ -15,7 +15,7 @@ Extra feature: Reset origin to mesh center
 
 ## How to use
 
-After installing this addon, you will find a new button icon on the top-right area of the 3D View, you can fix your mesh at any time you suspect it could have an error. Select your object and after clicking on this button, the addon will check the 3 common errors and fix immediately the mesh if encounters one or more errors. This addon works in EDIT and OBJECT mode! A single mouse click to avoid modelling pain ;)
+After installing this addon, you will find a new button icon **[!]** on the top-right area of the 3D View, you can fix your mesh at any time you suspect it could have an error. Select your object and after clicking on this button, the addon will check the 3 common errors and fix immediately the mesh if encounters one or more errors. This addon works in EDIT and OBJECT mode! A single mouse click to avoid modelling pain ;)
 
 ## How to install
 
