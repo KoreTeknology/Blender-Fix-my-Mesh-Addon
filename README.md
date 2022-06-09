@@ -13,7 +13,7 @@ A simple Addon for eductional purpose that fixes your mesh, regarding the 3 comm
 - **Inside-out normals** >>> This adon will recalculate all normals to outside
 - **Object Scale =/= 1** >>> This addon will Apply all transformations on all axis
 
-Extra feature: Reset origin to mesh center
+Extra feature: Reset origin to mesh center (activate it in the addon itself ;) )
 
 ## How to use
 
