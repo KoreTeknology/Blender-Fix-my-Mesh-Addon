@@ -34,7 +34,7 @@ from bpy.types import (
         Header,
         )
 
-# 
+# OPS
 class VIEW3D_OT_FixMesh(Operator):
     """Fix Mesh in Object"""
     bl_idname = "opr.fix_mesh"
@@ -51,7 +51,7 @@ class VIEW3D_OT_FixMesh(Operator):
             bpy.ops.mesh.normals_make_consistent(inside=False)
             bpy.ops.object.editmode_toggle()
             bpy.ops.object.transform_apply(location=True, rotation=True, scale=True)
-            bpy.ops.object.origin_set(type='ORIGIN_GEOMETRY', center='MEDIAN')
+            # bpy.ops.object.origin_set(type='ORIGIN_GEOMETRY', center='MEDIAN')
             bpy.ops.object.editmode_toggle()
             return {'FINISHED'}
         elif obj.type == "MESH" and obj.mode == "OBJECT":
@@ -61,7 +61,7 @@ class VIEW3D_OT_FixMesh(Operator):
             bpy.ops.mesh.normals_make_consistent(inside=False)
             bpy.ops.object.editmode_toggle()
             bpy.ops.object.transform_apply(location=True, rotation=True, scale=True)
-            bpy.ops.object.origin_set(type='ORIGIN_GEOMETRY', center='MEDIAN')
+            # bpy.ops.object.origin_set(type='ORIGIN_GEOMETRY', center='MEDIAN')
             return {'FINISHED'}
         else:
             print("This is not a mesh")
